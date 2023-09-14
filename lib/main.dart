@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const CupertinoApp(
+      debugShowCheckedModeBanner:false,
         title: 'Expense Tracker',
         theme: CupertinoThemeData(
             primaryColor: Color.fromARGB(255, 41, 141, 255),
